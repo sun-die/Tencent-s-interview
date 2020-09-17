@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <script>
         //es6实现插入排序
         function insert_sort(arr) {
 
@@ -24,7 +14,3 @@
         }
         let arr = [7, 4, 3, 67, 34, 1, 8];
         insert_sort(arr);
-    </script>
-</body>
-
-</html>

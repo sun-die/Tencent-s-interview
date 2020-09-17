@@ -1,29 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <script>
-        //es6 实现数组去重
+      //es6 实现数组去重
         var arr1 = [1, 4, '1', 1, 2, 2, 2, 2, 4, "4", 's', 'd', 'd'];
         //第一种set+...
         var newarr01 = [...new set(arr1)];
         console.log(newarr01);
          
         //第二种
-         var  newarr02 =Array.from(new set(arr1));
+         var  newarr02 =Array.from(new  set(arr1));
         console.log(newarr02);
         
         //第三filter
          var  newarr03=arr1.filter((x, index,self)=>self.indexOf(x)===index) ;
         console.log(newarr03);
         
-    </script>
-</body>
-
-</html>
