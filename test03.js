@@ -8,7 +8,5 @@
          var  newarr02 =Array.from(new  set(arr1));
         console.log(newarr02);
         
-        //第三filter
-         var  newarr03=arr1.filter((x, index,self)=>self.indexOf(x)===index) ;
-        console.log(newarr03);
+      
         
